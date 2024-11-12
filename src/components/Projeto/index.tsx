@@ -1,4 +1,4 @@
-import Titulo from '../Title'
+import Titulo from '../../components/Title'
 import Paragrafo from '../Paragrafo'
 
 import { Card, LinkBotao } from './style'

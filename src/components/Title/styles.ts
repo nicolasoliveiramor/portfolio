@@ -7,3 +7,11 @@ export const Titulo = styled.h3<Props>`
 	font-weight: bold;
 	margin-bottom: 16px;
 `
+
+export const TituloNome = styled.h1<Props>`
+	@media (max-width: 768px) {
+		font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '14px')};
+		text-align: center;
+		margin-bottom: 16px;
+	}
+`

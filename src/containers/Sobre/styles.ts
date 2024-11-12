@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 
 export const GithubSecao = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin-top: 32px;
 	margin-bottom: 64px;
 
@@ -9,9 +12,8 @@ export const GithubSecao = styled.div`
 	}
 
 	@media (max-width: 768px) {
-		img {
-			display: block;
-			margin: 0 auto;
-		}
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 `
